@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #Questionone, #Questiontwo, #Questionthree, #Questionfour, #Questionfive, #Questionsix, #Questionseven, #Questioneight, #Questionnine{
+            width: 1000px;
+            height: 350px;
+            border: 5px solid black;
+            border-radius: 3%;
+            font-size: 25px;
+            margin-left: 250px;
+            margin-top: 50px;
+            background-color: rgb(232, 236, 236);
+            
+        }
+
+        .Questionten{
+            width: 1000px;
+            height: 350px;
+            border: 5px solid black;
+            border-radius: 3%;
+            font-size: 25px;
+            margin-left: 250px;
+            margin-top: 50px;
+            background-color: rgb(232, 236, 236);
+        }
+
+        #Questioneight{
+            height: 400px;
+        }
+
+        #firstt{
+            position: absolute;
+          
+        }
+
+        #box{
+            background-color: gray;
+            border: 3px solid black;
+            margin-left: 10px;
+
+        }
+
+        #btn{
+            margin-left: 300px;
+            margin-top: 15px;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        p{
+            font-size: 50px;
+            text-align: end;
+            margin-right: 50px;
+        }
+
+       
+    </style>
+</head>
+<body>
+    
+<div id="body">
+
+    <p class="try"> 0 <span class="score">/10</span></p>
+
+        
+    <div id="Questionone"> 1. Which two statements are true about positioning floated elements? (choose two) <br><br>
+       
+            
+                <input type="checkbox" class="First" id="box">
+                <lable for="First">The element is positioned relative to the upper-left corner of the open window</lable> <br><br>
+
+                <input type="checkbox" class="Second" id="box">
+                <lable for="Second">The element is position relative to the upper-left corner of the browser</lable> <br><br>
+
+                <input type="checkbox" class="Third" id="box">
+                <label for="Third"> The element is positioned relative to its parent element </label><br><br>
+
+                <input type="checkbox" class="Four" id="box">
+                <label for="Four">The element can float up or down</label> <br><br>
+
+                <input type="checkbox" class="Five" id="box">
+                <label for="Five">The Element can float right or left</label> <br><br>
+              
+                
+    </div>
+
+    <div id="Questiontwo"> 2. What is the main purpose of CSS in HTML5?   <br><br>
+       
+
+            <input type="radio" class="Secondfirst" id="box" name="question2">
+            <label for="Secondfirst">CSS is used for scripting on an HTML web Page.</label> <br><br>
+
+            <input type="radio" class="Secondsecond" id="box" name="question2">
+            <label for="Secondsecond">None of these</label> <br><br>
+
+            <input type="radio" class="Secondthird" id="box" name="question2">
+            <label for="Secondthird">CSS is used to determine style, positioning, and layout of a page.</label> <br><br>
+
+            <input type="radio" class="Secondfour" id="box" name="question2">
+            <label for="Secondfour">CSS is used to define content on a page.</label> <br><br>
+
+
+        
+    </div>
+
+    <div id="Questionthree"> 3. You want to create a CSS style that will modify the strong tag to apply blue color and add 60% transparency. Which of the following code fragments will do this? <br><br>
+        
+
+            <input type="radio" class="Thirdfirst" id="box" name="question3">
+            <label for="Thirdfirst"> strong { color: rgba(0%,0%,100%,40%); }</label> <br><br>
+
+            <input type="radio" class="Thirdsecond" id="box" name="question3">
+            <label for="Thirdsecond"> strong { color: rgba(0,0,255, 0.40); }</label> <br><br>
+
+            <input type="radio" class="Thirdthird" id="box" name="question3">
+            <label for="Thirdthird"> strong { color: rgba(0,0,255,60); }</label> <br><br>
+
+            <input type="radio" class="Thirdfour" id="box" name="question3">
+            <label for="Thirdfour"> strong { color: #0000ff, 60%; }</label> <br><br>
+
+
+        
+    </div>
+
+    <div id="Questionfour"> 4. Which is true about absolute positioning? <br><br>
+    
+        <input type="radio" class="Fourfirst" id="box" name="question4">
+        <label for="Fourfirst"> The element can float right or left</label> <br><br>
+
+        <input type="radio" class="Foursecond" id="box" name="question4">
+        <label for="Foursecond"> The element is positioned relative to its parent element</label> <br><br>
+
+        <input type="radio" class="Fourthird" id="box" name="question4">
+        <label for="Fourthird"> The element is positioned relative to the upper-left corner of the browser</label>    <br><br>
+
+        <input type="radio" class="Fourfour" id="box" name="question4">
+        <label for="Fourfour"> The element is position relative to the upper-left corner of the computer display window</label> <br><br>
+    
+    
+    
+    </div>
+
+
+    <div id="Questionfive"> 5. What is the correct syntax for a CSS comment? <br><br>
+    
+            <input type="radio" class="Fivefirst" id="box" name="question5">
+            <label for="Fivefirst"> /* Comment Goes Here */ </label> <br><br>
+
+            <input type="radio" class="Fivesecond" id="box" name="question5">
+            <label for="Fivesecond"> // Comment Goes Here</label> <br><br>
+
+            <input type="radio" class="Fivethird" id="box" name="question5">
+            <label for="Fivethird"> # Comment Goes Here # </label> <br><br>
+
+            <input type="radio" class="Fivefour" id="box" name="question5">
+            <label for="Fivefour"> < !---Comment Goes Here --> </label> <br><br>
+    
+    </div>
+
+    <div id="Questionsix"> 6. How does the new Flexible Box Model eliminate the need for using float? <br><br>
+    
+            <input type="radio" class="Sixfirst" id="box" name="question6">
+            <label for="Sixfirst"> By positioning objects relative to a parent object</label> <br><br>
+
+            <input type="radio" class="Sixsecond" id="box" name="question6">
+            <label for="Sixsecond"> By positioning all objects at the coordinates 0,0</label> <br><br>
+
+            <input type="radio" class="Sixthird" id="box" name="question6">
+            <label for="Sixthird"> By allowing the browser to position the objects</label> <br><br>
+
+            <input type="radio" class="Sixfour" id="box" name="question6">
+            <label for="Sixfour">  By providing a container positioned by properties assigned</label>   <br><br> 
+    
+    
+    </div>
+
+    <div id="Questionseven"> 7. Which CSS style positions am element relative to the browser window? <br><br>
+    
+        <input type="radio" class="Sevenfirst" id="box" name="question7">
+        <label for="Sevenfirst"> position: fixed; </label> <br><br>
+
+        <input type="radio" class="Sevensecond" id="box" name="question7">
+        <label for="Sevensecond"> position: absolute; </label> <br><br>
+
+        <input type="radio" class="Seventhird" id="box" name="question7">
+        <label for="Seventhird"> position: relative; </label> <br><br>
+
+        <input type="radio" class="Sevenfour" id="box" name="question7">
+        <label for="Sevenfour"> position: static; </label> <br><br>
+
+    </div>
+
+    <div id="Questioneight"> 8. What is the purpose of the flexbox properties in CSS? <br><br>
+    
+        <input type="radio" class="Eightfirst" id="box" name="question8">
+        <label for="Eightfirst"> To display an element as a flexbox, allow it to be moved dynamically to any position on the page with every little additional code.</label> <br><br>
+
+        <input type="radio" class="Eightsecond" id="box" name="question8">
+        <label for="Eightsecond"> To display an element as a flexbox, allowing th user to drag the edges of the box in and out to change its size.</label> <br><br>
+        
+        <input type="radio" class="Eightthird" id="box" name="question8">
+        <label for="Eightthird"> TO display an element as a flexbox, allowing the content of a paragraph element to wrap around adjacent images.</label> <br><br>
+
+        <input type="radio" class="Eightfour" id="box" name="question8">
+        <label for="Eightfour"> To display an element as a flexbox, allowing its size and position to adjust with the size of the viewport.</label> <br><br>
+
+    </div>
+
+    <div id="Questionnine"> 9. Which box model establishes content alignment, direction, and orientation? <br><br>
+    
+        <input type="radio" class="ninefirst" id="box" name="question9">
+        <label for="ninefirst"> Fixed Box Model</label> <br><br>
+
+        <input type="radio" class="ninesecond" id="box" name="question9">
+        <label for="ninesecond"> Flexible Box Model</label> <br><br>
+
+        <input type="radio" class="ninethird" id="box" name="question9">
+        <label for="ninethird"> Parent Box Model</label> <br><br>
+
+        <input type="radio" class="ninefour" id="box" name="question9">
+        <label for="ninefour"> Inheritance Box Model</label> <br><br>
+    
+    
+    </div>
+
+    <div class="Questionten"> 10. What is the purpose of the "flex-flow" property? <br><br>
+    
+        <input type="radio" class="tenfirst" id="box" name="question10">
+        <label for="tenfirst"> Flex-flow allows the designer to set both the flex-direction and felx-wrap properties with a single line of code.</label> <br><br>
+
+        <input type="radio" class="tensecond" id="box" name="question10">
+        <label for="tensecond"> Flex-flow defines the alignment of child boxes (top, center, botton) within the flex box.</label> <br><br>
+
+        <input type="radio" class="tenthird" id="box" name="question10">
+        <label for="tenthird"> Flex-flow ONLY determines whether or not the child boxes will wrap to a new line upon running out of space. </label> <br><br>
+
+        <input type="radio" class="tenfour" id="box" name="question10">
+        <label for="tenfour"> None Of these.</label> <br><br>
+
+        
+    
+    
+    </div>
+
+
+    <button id="btn"> <b>Submit</button>
+
+
+   
+</div>
+
+
+<script>
+
+
+function Answer() {
+    let boxx = document.querySelector('.tenfour');
+    let bo = document.querySelector('.tenthird')
+ 
+
+    if (boxx){
+        document.querySelector('.Questionten').style.backgroundColor= '#60B347';
+        
+
+    }
+
+    else if (boxx < bo){
+        document.querySelector('.Questionten').style.backgroundColor= '#D0312D';
+    }
+}
+    
+
+var button = document.getElementById('btn').addEventListener('click', Answer);
+</script>
+</body>
+</html>
